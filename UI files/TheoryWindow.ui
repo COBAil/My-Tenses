@@ -14,35 +14,46 @@
    <string>MyTenses</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QWidget
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget
 {
     color: #aaa;
    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(54, 54, 54), stop:1 rgb(128, 128, 128));
-
 }
 
 QPushButton
 {
     color: rgb(255, 255, 255);
-background-color: #323232;
-	
+	background-color: #323232;
     width: 75px;
     height: 50px;
-	
-	border-radius: 20px;                     /* &lt;----  20px  */ 
-	font: &quot;Microsoft YaHei UI&quot;;
+	border-radius: 20px;
+	font: 75 15pt &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
 }
 
 QPushButton:hover
 {
     background-color: silver;
-
 }
 
-</string>
-  </property>
-  <widget class="QWidget" name="centralwidget">
+QLabel
+{
+	color: rgb(255, 255, 255);
+	background-color: #323232;
+    border-radius: 15px;
+	font: &quot;Microsoft YaHei UI&quot;;
+	font-weight: bold;
+}</string>
+   </property>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
@@ -54,11 +65,15 @@ QPushButton:hover
     </property>
     <property name="font">
      <font>
-      <pointsize>40</pointsize>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Назад</string>
@@ -78,9 +93,8 @@ QPushButton:hover
 {
    color: rgb(255, 255, 255);
 	background-color: #323232;
-    border-radius: 15px;                     /* &lt;----  20px  */ 
-	font:
- &quot;Microsoft YaHei UI&quot;;
+    border-radius: 15px;
+	font: &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
 }</string>
     </property>
@@ -102,7 +116,8 @@ QPushButton:hover
     </property>
     <property name="font">
      <font>
-      <pointsize>27</pointsize>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -126,9 +141,8 @@ QPushButton:hover
 {
    color: rgb(255, 255, 255);
 	background-color: #323232;
-    border-radius: 15px;                     /* &lt;----  20px  */ 
-	font:
- &quot;Microsoft YaHei UI&quot;;
+    border-radius: 15px;
+	font: &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
 }</string>
     </property>
@@ -146,10 +160,7 @@ QPushButton:hover
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel
-{
-	border-radius: 15px;
-}</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
@@ -172,7 +183,8 @@ QPushButton:hover
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -192,10 +204,7 @@ QPushButton:hover
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel
-{
-	border-radius: 15px;
-}</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
@@ -221,9 +230,8 @@ QPushButton:hover
 {
    color: rgb(255, 255, 255);
 	background-color: #323232;
-    border-radius: 15px;                     /* &lt;----  20px  */ 
-	font:
- &quot;Microsoft YaHei UI&quot;;
+    border-radius: 15px;
+	font: &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
 }</string>
     </property>
@@ -242,7 +250,8 @@ QPushButton:hover
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -262,10 +271,7 @@ QPushButton:hover
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel
-{
-	border-radius: 15px;
-}</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
@@ -291,9 +297,8 @@ QPushButton:hover
 {
    color: rgb(255, 255, 255);
 	background-color: #323232;
-    border-radius: 15px;                     /* &lt;----  20px  */ 
-	font:
- &quot;Microsoft YaHei UI&quot;;
+    border-radius: 15px;
+	font: &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
 }</string>
     </property>
@@ -312,7 +317,8 @@ QPushButton:hover
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -332,10 +338,7 @@ QPushButton:hover
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel
-{
-	border-radius: 15px;
-}</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
@@ -361,9 +364,8 @@ QPushButton:hover
 {
    color: rgb(255, 255, 255);
 	background-color: #323232;
-    border-radius: 15px;                     /* &lt;----  20px  */ 
-	font:
- &quot;Microsoft YaHei UI&quot;;
+    border-radius: 15px;
+	font: &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
 }</string>
     </property>
@@ -382,7 +384,8 @@ QPushButton:hover
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>

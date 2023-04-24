@@ -14,40 +14,41 @@
    <string>MyTenses</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
    <property name="styleSheet">
     <string notr="true">QWidget
 {
     color: #aaa;
    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb(54, 54, 54), stop:1 rgb(128, 128, 128));
-
 }
 
 QPushButton
 {
     color: rgb(255, 255, 255);
 	background-color: #323232;
-	width: 75px;
+    width: 75px;
     height: 50px;
-	font-size: 45px;
-	border-radius: 20px;                     /* &lt;----  20px  */ 
-	font: 75 40pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 20px;
+	font: 75 25pt &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
-
 }
 
 QPushButton:hover
 {
     background-color: silver;
-
 }
 
-QLabel{
+QLabel
+{
 	color: rgb(255, 255, 255);
 	background-color: #323232;
-    border-radius: 20px;                     /* &lt;----  20px  */
+    border-radius: 20px;
 	font: &quot;Microsoft YaHei UI&quot;;
 	font-weight: bold;
-
 }
 </string>
    </property>
@@ -101,7 +102,7 @@ QLabel{
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>14</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
